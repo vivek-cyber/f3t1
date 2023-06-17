@@ -1,0 +1,70 @@
+body{
+    margin: 0px;
+    background-color: rgb(32, 32, 32);
+    padding: 40px;
+    font-size: larger;
+}
+h2
+{
+    color:antiquewhite;
+}
+#d1
+{
+    display: flex;
+    flex-direction: column;
+    color:antiquewhite;
+}
+
+#inputs
+{
+    display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+column-gap: 20px;
+}
+
+.ip1
+{
+    background-color: rgb(32, 32, 32);
+    border: 1px solid antiquewhite;
+    height: 30px;
+    color: antiquewhite;
+    margin-top: 10px;
+}
+
+#adduser
+{
+    padding: 10px 30px;
+    background-color: antiquewhite;
+    color:  rgb(32, 32, 32);
+    font-size: large;
+}
+
+#message
+{
+    margin-top: 30px;
+    font-size: x-large;
+
+}
+
+.person
+{
+    display: flex;
+    column-gap: 30px;
+    margin-bottom: 20px;
+}
+.persondata
+{
+    display: flex;
+    column-gap: 30px;
+    border: 1px solid antiquewhite;
+    padding: 30px;
+    color: antiquewhite;
+    border-radius: 15px;
+}
+.delete
+{
+    border-radius: 25px;
+    padding: 25px 40px;
+    font-size: larger;
+    
+}
